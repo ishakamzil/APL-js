@@ -1,0 +1,165 @@
+/* 
+.zero{
+    height: 1000px;
+}
+
+.one{
+    margin: 100px 0;
+}
+.nums{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+}
+
+.nums .num{
+    margin: 50px;
+
+}
+
+.tow{
+    background-color: rgb(91, 89, 89);
+    text-align: center;
+    padding-top: 20px;
+}
+.div{
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    margin: 6%;
+    text-align: center;
+}
+
+.skill{
+    background-color: blue;
+    width: 0px;
+    height: 30px;
+    transition: 0.3s width linear;
+}
+
+
+
+div{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+input{
+    border: none;
+    background-color: #F8F8F8;
+    width: 94%;
+    height: 40%;
+    padding: 3%;
+    border-bottom: solid 5px #D7D7D7;
+}
+
+input:focus{
+    outline: none;
+}
+
+.progress{
+    background: blue;
+    height: 5px;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+    top: -5px;
+    width: 0;
+}
+
+.count{
+    display: block;
+    text-align: right;
+    margin: 5px;
+}
+.zero{
+    font-weight: bold;
+    color: red;
+} */
+
+
+
+.contianer{
+    text-align: center;
+    margin: 20px;
+}
+
+.contianer .form{
+    transition: 0.3s width linear;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #EEEE;
+    height: 50px;
+}
+.contianer .form .input{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 70%;
+    border: navajowhite;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.contianer .form .add{
+    height: 70%;
+    width: 20%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-52%);
+    border: none;
+    background: #4A707A;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.contianer .tasks{
+    transition: 0.3s width linear;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #EEEE;
+    height: auto;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.contianer .tasks .task{
+    width: 80%;
+    padding: 15px 0;
+    border: navajowhite;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    margin: 10px 0;
+}
+@media (max-width: 585px) {
+    .contianer{
+        
+        margin: 5px;
+    }
+    
+    .contianer .form{
+    transition: 0.3s width linear;
+    width: 100%;
+    
+    }
+    .contianer .tasks{
+    transition: 0.3s width linear;
+        width: 100%;
+    }
+}
